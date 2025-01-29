@@ -8,10 +8,15 @@ function App() {
       </header>
       <div className='App-body'>
         <div style={{textAlign: "center"}}><h2>Hello, I am Peter Lovei, PhD</h2></div>
-        <p>I am an experienced design professional with a technical background and 10 years of industry experience from <a href="https://www.philips.com/a-w/about/innovation/experience-design.html" target="_blank" rel="noreferrer">Philips Experience Design</a>.</p>
-        <p>I am relocating to Vienna, Austria in January, 2025 and actively looking for a job!</p>
+        <p>I am an experienced data / design / software professional with a technical background and 10 years of industry experience from <a href="https://www.philips.com/a-w/about/innovation/experience-design.html" target="_blank" rel="noreferrer">Philips Experience Design</a>.</p>
+        <p>I relocated to Vienna, Austria in January, 2025 and am actively looking for a job!</p>
+        <p>As part of my application process I am using this channel to introduce my previous works in Eindhoven, The Netherlands. Please look around, and if you are interested in considering me for a position let's get in touch! 👋🏻</p>
+        <p>I consider this website a work in progress, and am happy to further elaborate on its content.</p>
        
         <h3><a href="https://www.philips.nl/a-w/about/news/archive/standard/about/news/articles/2023/20230928-dutch-design-week-een-nieuw-zorgtraject-ontwerpen-vanuit-de-wensen-van-de-doelgroep.html#english" target='_blank' rel="noreferrer" >Close to Heart</a></h3>
+
+        {/* Adding a banner image about the project here */}
+        <img alt="close_to_heart" src={require('./img/close-to-heart-zorgpad.jpg')} width={"100%"} height={"auto"} href="https://www.philips.nl/a-w/about/news/archive/standard/about/news/articles/2023/20230928-dutch-design-week-een-nieuw-zorgtraject-ontwerpen-vanuit-de-wensen-van-de-doelgroep.html#english" target='_blank' rel="noreferrer" />
         <p>The <a href="https://www.philips.nl/a-w/about/news/archive/standard/about/news/articles/2023/20230928-dutch-design-week-een-nieuw-zorgtraject-ontwerpen-vanuit-de-wensen-van-de-doelgroep.html#english" target='_blank' rel="noreferrer" >Close to Heart</a> project is an <a href="https://ifdesign.com/en/winner-ranking/project/close-to-heart/542752" target="_blank" rel="noreferrer" >award winning</a> collaboration between <a href="https://www.philips.com/a-w/about/innovation/experience-design.html" target="_blank" rel="noreferrer" >Philips Experience Design</a>, <a href="https://www.tue.nl/en/our-university/departments/industrial-design/research" target="_blank" rel="noreferrer" >Eindhoven University of Technology</a> and the <a href="https://www.catharinaziekenhuis.nl/catharina-hart-en-vaatcentrum/"target="_blank" rel="noreferrer">Catharina Hospital</a>. As a data experience designer I was responsible for redesigning the atrial fibrillation care pathway from a technical perspective. The most important perspective of this was the fact that I worked together with technical consultants to configure, and deploy a CE-marked patient engagement platform.</p>
 
         <h2>Specific activities and challenges</h2>
