@@ -32,8 +32,6 @@ function App() {
 
         <h3>A summary of my process, and project highlights aka. my PhD presentation</h3>
         <iframe title="phd_portfolio" className='presentation' src="https://1drv.ms/p/s!AsHe59hm9rxGgaxnKag9Or6Qza5Kvg?embed=1&amp;em=2&amp;wdAr=1.7777777777777777" width="80%" height="400px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com" rel="noreferrer" >Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps" rel="noreferrer" >Office</a>.</iframe>
-      
-        <p>If you want to get to know me better, please use the CV chatbot by clicking the button in the bottom-right of this page</p>
       </div>
     </div>
   );
