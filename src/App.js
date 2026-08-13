@@ -9,7 +9,7 @@ function App() {
       <div className='App-body'>
         <div style={{textAlign: "center"}}><h2>Hello, I am Peter Lovei, PhD</h2></div>
         <p>I am an experienced data / design / software professional with a technical background and 10 years of industry experience from <a href="https://www.philips.com/a-w/about/innovation/experience-design.html" target="_blank" rel="noreferrer">Philips Experience Design</a>.</p>
-        <p>I relocated to Vienna, Austria in January, 2025 and am actively looking for a job!</p>
+        <p>I relocated to Veszprem, Hungary in September, 2026 and am actively looking for a job!</p>
         <p>As part of my application process I am using this channel to introduce my previous works in Eindhoven, The Netherlands. Please look around, and if you are interested in considering me for a position let's get in touch! 👋🏻</p>
         <p>I consider this website a work in progress, and am happy to further elaborate on its content.</p>
        
