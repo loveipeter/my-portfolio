@@ -1,0 +1,27 @@
+.section {
+  padding-block: var(--section-gap);
+  padding-inline: var(--gutter);
+}
+
+.inner {
+  max-width: var(--measure);
+  margin-inline: auto;
+}
+
+.head {
+  margin-bottom: 1.75rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(1.5rem, 1.2rem + 1.4vw, 2rem);
+}

@@ -1,0 +1,81 @@
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.bannerLink {
+  display: block;
+}
+
+.banner {
+  width: 100%;
+  aspect-ratio: 16 / 7;
+  object-fit: cover;
+  transition: transform 250ms ease;
+}
+
+.bannerLink:hover .banner {
+  transform: scale(1.02);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .banner {
+    transition: none;
+  }
+  .bannerLink:hover .banner {
+    transform: none;
+  }
+}
+
+.body {
+  padding: clamp(1.25rem, 4vw, 1.75rem);
+}
+
+.meta {
+  margin: 0 0 0.9rem;
+}
+
+.award {
+  display: inline-block;
+  padding: 0.25rem 0.65rem;
+  background: var(--mint-soft);
+  border: 1px solid var(--mint);
+  border-radius: 999px;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--mint-deep);
+  text-decoration: none;
+}
+
+.award:hover {
+  background: var(--mint);
+}
+
+.collaborators {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  margin: 0 0 1.1rem;
+  padding: 0 0 1.1rem;
+  border-bottom: 1px solid var(--border);
+  list-style: none;
+  font-size: 0.875rem;
+}
+
+.collaborators li + li {
+  position: relative;
+}
+
+.collaborators li + li::before {
+  content: '·';
+  position: absolute;
+  left: -0.65rem;
+  color: var(--ink-soft);
+}
+
+.description {
+  margin: 0;
+}

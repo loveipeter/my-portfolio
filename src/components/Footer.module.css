@@ -1,0 +1,46 @@
+.footer {
+  background: var(--ink);
+  color: var(--mint-soft);
+  padding-block: clamp(2.5rem, 6vw, 3.5rem);
+  padding-inline: var(--gutter);
+}
+
+.inner {
+  max-width: var(--measure);
+  margin-inline: auto;
+  text-align: center;
+}
+
+.pitch {
+  margin: 0 0 1.25rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--surface);
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.links a {
+  padding: 0.55rem 1.1rem;
+  border: 1px solid rgba(216, 255, 240, 0.35);
+  border-radius: 999px;
+  color: var(--mint);
+  text-decoration: none;
+  font-size: 0.9375rem;
+}
+
+.links a:hover {
+  background: rgba(171, 255, 214, 0.12);
+  border-color: var(--mint);
+}
+
+.meta {
+  margin: 1.75rem 0 0;
+  font-size: 0.8125rem;
+  color: rgba(216, 255, 240, 0.65);
+}

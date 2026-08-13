@@ -1,0 +1,12 @@
+.prose p {
+  margin: 0 0 1.15rem;
+}
+
+.prose p:last-child {
+  margin-bottom: 0;
+}
+
+.prose p:first-child {
+  font-size: 1.125rem;
+  color: var(--ink);
+}
