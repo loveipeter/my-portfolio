@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Peter Lovei">
+  <title>Peter Lovei</title>
+  <rect width="64" height="64" rx="15" fill="#10231B"/>
+  <path
+    transform="translate(8 6) scale(2)"
+    fill="#ABFFD6"
+    d="M12 21s-7-4.35-9.5-8.5C.5 9 2.5 5 6.5 5 9 5 12 7.5 12 7.5S15 5 17.5 5c4 0 6 4 4 7.5C19 16.65 12 21 12 21z"/>
+  <path
+    d="M15 32 H21 L25 24 L31 41 L36 30 H49"
+    fill="none"
+    stroke="#10231B"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+</svg>
